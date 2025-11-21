@@ -164,3 +164,26 @@ a:hover{
     font-size: 15px;
     color: lightsteelblue;
 }
+
+
+#music-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #deff74;
+  color: #090909;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#music-btn:hover {
+  background: #444;
+  transform: scale(1.05);
+}
+
+#music-btn:active {
+  transform: scale(0.95);
+}
